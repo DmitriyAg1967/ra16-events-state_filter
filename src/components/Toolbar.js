@@ -1,8 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-function Toolbar(props) {
-  const { filters, selected, onSelectfilter } = props;
+function Toolbar({ filters, selected, onSelectfilter }) {
   
   return (
     <nav className='toolbar'>
